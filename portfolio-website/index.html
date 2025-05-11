@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rukizm Art Portfolio</title>
+    <!-- Link to the external CSS file in the css folder -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <!-- Logo Section - Only showing the logo now -->
+        <div class="logo">
+            <!-- Your logo image -->
+            <img src="../images/logo.png" alt="Rukizm Logo" id="logo-image">
+        </div>
+        
+        <!-- Navigation Links -->
+        <div class="nav-links">
+            <!-- These links control which page is visible -->
+            <a href="#" class="nav-link" data-page="home">Home</a>
+            <a href="#" class="nav-link" data-page="about">About</a>
+        </div>
+    </nav>
+
+    <!-- Home Page with Gallery -->
+    <div id="home" class="page active">
+        <div class="container">
+            <!-- Gallery Grid - This is where your artwork is displayed -->
+            <div class="gallery">
+                <!-- ARTWORK ITEM 1 -->
+                <div class="gallery-item">
+                    <img src="../images/jesus.png" alt="Character Illustration">
+                </div>
+                
+                <!-- ARTWORK ITEM 2 -->
+                <div class="gallery-item">
+                    <img src="../images/avatar.png" alt="Fantasy Characters Group">
+                </div>
+                
+                <!-- ARTWORK ITEM 3 -->
+                <div class="gallery-item">
+                    <img src="../images/witchanddemon.png" alt="Fantasy Characters">
+                </div>
+                
+                <!-- ARTWORK ITEM 4 -->
+                <div class="gallery-item">
+                    <img src="../images/people.png" alt="Character Portraits">
+                </div>
+                
+                <!-- ARTWORK ITEM 5 -->
+                <div class="gallery-item">
+                    <img src="../images/hotguy.png" alt="Character Portrait">
+                </div>
+                
+                <!-- ARTWORK ITEM 6 -->
+                <div class="gallery-item">
+                    <img src="../images/bunnygirl.jpg" alt="Character with Bunny">
+                </div>
+                
+                <!-- ARTWORK ITEM 7 -->
+                <div class="gallery-item">
+                    <img src="../images/twink.jpg" alt="Character with Purple Hair">
+                </div>
+                
+                <!-- ARTWORK ITEM 8 -->
+                <div class="gallery-item">
+                    <img src="../images/eve.jpg" alt="Listening Eve Illustration">
+                </div>
+                
+                <!-- ARTWORK ITEM 9 -->
+                <div class="gallery-item">
+                    <img src="../images/sketch.jpg" alt="Character Sketch">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About & Contact Page -->
+    <div id="about" class="page">
+        <div class="container">
+            <!-- About Section - Information about you as an artist -->
+            <div class="about-section">
+                <h2>About Me</h2>
+                <!-- Replace with your actual bio information -->
+                <p>HIYA! My name is Ruki! I’m an aspiring concept artist who loves storytelling, character design and exploring emotion through art!</p>
+                <p>I’m currently working as a freelancer and my main themes are fantasy, Japanese anime and pretty girls!!</p>
+                <p>When I'm not drawing, you’ll probably find me collecting references I’ll definitely use one day, drinking too much tea, or getting way too invested in my fictional worlds.</p>
+                <p>Thanks for stopping by!! Let’s make something cool together!</p>
+            </div>
+            
+            <!-- Contact Form - Allows visitors to send you messages -->
+            <div class="contact-form">
+                <h2>Contact Me</h2>
+                <form id="contactForm">
+                    <!-- Name Input Field -->
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <!-- Email Input Field -->
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <!-- Message Text Area -->
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <!-- Submit Button -->
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Modal - This appears when a gallery image is clicked -->
+    <div class="modal" id="imageModal">
+        <!-- Close Button for the Modal -->
+        <span class="close-modal">&times;</span>
+        
+        <!-- Modal Content - Displays the enlarged image -->
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="Enlarged artwork">
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        &copy; <span id="year"></span> RUKIRIZVI. All rights reserved.
+    </footer>
+
+    <!-- Link to the external JavaScript file in the js folder -->
+    <script src="../js/script.js"></script>
+</body>
+</html>
