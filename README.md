@@ -15,7 +15,7 @@ A clean, responsive portfolio website for showcasing digital artwork and illustr
 
 ## Live Demo
 
-[Visit the live website](#) <!-- Replace with your actual website URL once deployed -->
+[Visit the live website](https://airbreather2.github.io/RukiRPortfolio/) <!-- Replace with your actual website URL once deployed -->
 
 ## Project Structure
 
